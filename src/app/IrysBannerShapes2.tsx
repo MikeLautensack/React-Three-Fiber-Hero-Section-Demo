@@ -414,8 +414,13 @@ type GLTFResult = GLTF & {
   materials: {
     ["Objects Shader"]: THREE.MeshStandardMaterial;
   };
-  animations: any;
+  animations: GLTFAction[];
 };
+
+type ActionName = "";
+interface GLTFAction extends THREE.AnimationClip {
+  name: ActionName;
+}
 
 type ContextType = Record<
   string,
