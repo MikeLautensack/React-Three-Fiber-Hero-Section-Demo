@@ -20,7 +20,7 @@ type GLTFResult = GLTF & {
     Meat: THREE.MeshStandardMaterial;
     Cheese: THREE.MeshStandardMaterial;
   };
-  animations: GLTFAction[];
+  animations: any;
 };
 
 type ContextType = Record<
