@@ -3,6 +3,8 @@
 import { Canvas } from "react-three-fiber";
 import { IrysBannerShapes2 } from "./IrysBannerShapes2";
 import { IrysBannerShapes } from "./IrysBannerShapes";
+// import { Fox } from "./Fox";
+import { Burger } from "./Burger";
 
 export default function Home() {
   return (
@@ -10,7 +12,7 @@ export default function Home() {
       <Canvas className="w-full h-full">
         <ambientLight intensity={4.5} />
         <directionalLight position={[-2, 5, 2]} intensity={1} />
-        <IrysBannerShapes />
+        <Burger />
       </Canvas>
     </main>
   );
