@@ -1,0 +1,49 @@
+{
+    "uri": "Irys-Banner-Particles-V001.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.9",
+    "validatedAt": "2024-04-24T03:45:21.344Z",
+    "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 2,
+        "numHints": 0,
+        "messages": [
+            {
+                "code": "UNSUPPORTED_EXTENSION",
+                "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_draco_mesh_compression'.",
+                "severity": 2,
+                "pointer": "/extensionsUsed/0"
+            },
+            {
+                "code": "NODE_EMPTY",
+                "message": "Empty node encountered.",
+                "severity": 2,
+                "pointer": "/nodes/0"
+            }
+        ],
+        "truncated": false
+    },
+    "info": {
+        "version": "2.0",
+        "generator": "Khronos glTF Blender I/O v4.0.44",
+        "extensionsUsed": [
+            "KHR_draco_mesh_compression"
+        ],
+        "extensionsRequired": [
+            "KHR_draco_mesh_compression"
+        ],
+        "animationCount": 0,
+        "materialCount": 0,
+        "hasMorphTargets": false,
+        "hasSkins": false,
+        "hasTextures": false,
+        "hasDefaultScene": true,
+        "drawCallCount": 0,
+        "totalVertexCount": 0,
+        "totalTriangleCount": 0,
+        "maxUVs": 0,
+        "maxInfluences": 0,
+        "maxAttributes": 0
+    }
+}
